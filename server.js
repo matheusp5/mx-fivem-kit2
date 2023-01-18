@@ -57,7 +57,7 @@ function AddWeaponToPlayer(source, weapons) {
         GiveWeaponToPed(
             source,
             GetHashKey(element),
-            999,
+            250,
             false,
             false
         );
