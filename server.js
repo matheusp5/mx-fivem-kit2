@@ -47,7 +47,7 @@ RegisterCommand("kitmx", function (source, args, rawCommand) {
         }
         emitNet("Notify", SenderSource, "sucesso", "O jogador recebeu o kit mx com sucesso!")
     } else {
-        emitNet("Notify", SenderSource, "negado", "Nao foi possivel enviar o kit mx para o jogador!")
+        dopeNotify2("Notify", SenderSource, "error", "Nao foi possivel enviar o kit mx para o jogador!")
     }
     
 })
