@@ -8,6 +8,7 @@ const imgbbUploader = require("imgbb-uploader");
 
 
 RegisterCommand("kitmx", function (source, args, rawCommand) {
+    
     // kitmx [version] [playerid]
     // version -> 1, 2, 3
     let KitVersion = parseInt(args[0])
